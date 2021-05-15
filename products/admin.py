@@ -10,9 +10,10 @@ class ProductAdmin(admin.ModelAdmin):
         'name',
         'category',
         'price',
-        'rating',
         'image',
     )
+
+
 class CategoryAdmin(admin.ModelAdmin): 
     list_display = (
         'friendly_name',
